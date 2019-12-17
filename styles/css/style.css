@@ -1,0 +1,298 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #fcfcfc;
+  background-color: #674baf;
+  background-image: url("../../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.brand-logo {
+  max-width: 140px;
+  height: auto;
+  display: block;
+}
+
+header {
+  margin-bottom: 4rem;
+}
+
+.product {
+  display: block;
+}
+
+.product-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  align-self: center;
+}
+
+.product-copy {
+  margin-top: 2.6rem;
+  max-width: 530px;
+}
+.product-copy h1 {
+  margin-bottom: 1.4rem;
+}
+.product-copy p {
+  line-height: 1.65;
+  opacity: 0.9;
+}
+
+.btn-sign-up {
+  margin-top: 1.8rem;
+  font-size: 0.8rem;
+  color: purple;
+  padding: 1rem 5rem;
+  background-color: #fdfdfd;
+  border: 0;
+  border-radius: 10rem;
+  box-shadow: 0 2px 4px #130e20;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.social-icons ul {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.social-icons ul li {
+  padding: 0;
+}
+.social-icons ul li:last-child a {
+  margin: 0;
+}
+.social-icons ul li a {
+  text-align: center;
+  display: inline-flex;
+  color: #fcfcfc;
+  font-size: 1rem;
+  border: 1px solid #fcfcfc;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 376px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  .wrapper {
+    padding: 3.35rem 4.35rem;
+  }
+
+  header {
+    margin-bottom: 5.5rem;
+  }
+
+  .brand-logo {
+    max-width: 215px;
+  }
+
+  .btn-sign-up {
+    font-size: 1.1rem;
+    padding: 1.2rem 4.2rem;
+    box-shadow: 0 2px 8px #130e20;
+  }
+}
+@media screen and (min-width: 850px) {
+  body {
+    background-image: url("../../images/bg-desktop.svg");
+    background-size: cover;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .product-image {
+    margin-right: 3.6rem;
+  }
+
+  .social-icons ul {
+    justify-content: flex-end;
+  }
+  .social-icons ul li {
+    padding: 0;
+  }
+  .social-icons ul li:last-child a {
+    margin: 0;
+  }
+  .social-icons ul li a {
+    font-size: 1.3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  body {
+    text-align: left;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
