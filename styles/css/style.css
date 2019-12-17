@@ -201,7 +201,7 @@ header {
 }
 
 .product-copy {
-  margin-top: 2.6rem;
+  margin: 2.6rem auto 0 auto;
   max-width: 530px;
 }
 .product-copy h1 {
