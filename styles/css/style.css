@@ -157,6 +157,22 @@ h1 {
   font-size: 1.4rem;
 }
 
+.hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.hidden:focus {
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  width: auto;
+}
+
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
